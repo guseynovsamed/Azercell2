@@ -1,0 +1,536 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lota Grotesque", sans-serif;
+  background-color: rgb(252, 252, 252);
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.header-up {
+  width: 100%;
+  background-color: black;
+  height: 42px;
+}
+
+.header-up .header-left {
+  display: flex;
+  gap: 50px;
+  position: relative;
+}
+
+.header-up .header-left .button1 {
+  height: 42px;
+  width: 40px;
+  transition: all 0.5s;
+}
+
+.header-up .header-left .button1:hover {
+  background-color: rgb(94, 94, 94);
+}
+
+.header-up .header-left .button2 {
+  height: 42px;
+  width: 69px;
+  transition: all 0.5s;
+}
+.header-up .header-left .button2:hover {
+  background-color: rgb(94, 94, 94);
+}
+
+.header-up .header-left .button3 {
+  height: 42px;
+  width: 89px;
+  transition: all 0.5s;
+}
+
+.header-up .header-left .button3:hover {
+  background-color: rgb(94, 94, 94);
+}
+
+.header-up .header-left a {
+  color: rgb(133, 133, 133);
+  text-decoration: none;
+  font-size: 11px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.header-up .header-left a:hover {
+  color: white;
+}
+
+.header-up .header-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-up .header-right .button1 {
+  width: 85px;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.header-up .header-right .button1:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.header-up .header-right .button1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.header-up .header-right .button1 a span {
+  padding-left: 8px;
+}
+
+.header-up .header-right .button2 {
+  height: 100%;
+  width: 35px;
+  transition: all 0.5s;
+}
+
+.header-up .header-right .button2:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.header-up .header-right .button2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14px;
+}
+
+.header-up .header-right .button3 {
+  width: 125px;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.header-up .header-right .button3:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.header-up .header-right .button3 a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3px;
+}
+
+.header-up .header-right .button3 a span {
+  padding-left: 8px;
+}
+
+.header-up .header-right .button-lang {
+  height: 100%;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: all 0.5s;
+  background-color: black;
+  color: black;
+}
+
+.header-up .header-right .button-lang select {
+  background-color: black;
+  color: white;
+}
+
+.header-up .header-right .button-lang:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.header-up .header-right .search {
+  color: white;
+  height: 100%;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: all 0.5s;
+}
+
+.header-up .header-right .search:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.header-center .header-img {
+  width: 100%;
+  height: 680px;
+  position: absolute;
+}
+
+.header-center .header-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.header-center .header-logo {
+  position: relative;
+  height: 60px;
+}
+
+.header-center .header-logo img {
+  padding-top: 15px;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.header-center .header-menues {
+  height: 60px;
+  position: relative;
+}
+
+.header-center .header-menues ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-center .header-menues ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.header-center .header-menues ul li .button1 {
+  width: 59px;
+  height: 30px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-center .header-menues ul li .button1:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li .button2 {
+  width: 88px;
+  height: 30px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-center .header-menues ul li .button2:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li .button3 {
+  width: 129px;
+  height: 30px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-center .header-menues ul li .button3:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li .button4 {
+  width: 119px;
+  height: 30px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-center .header-menues ul li .button4:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li .button5 {
+  width: 95px;
+  height: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.header-center .header-menues ul li .button5:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li .button6 {
+  width: 59px;
+  height: 30px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-center .header-menues ul li .button6:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+}
+
+.header-center .header-title {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-center .header-title .header-text {
+  color: white;
+  width: 510px;
+  font-size: 25px;
+  margin-left: 400px;
+  text-align: center;
+}
+
+.header-center .header-title .header-text h1 {
+  padding-top: 150px;
+}
+
+.header-center .header-title .header-text p {
+  font-size: 12px;
+  text-align: center;
+  color: rgb(177, 177, 177);
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.header-down .down-title .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.header-center .header-right-img img {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.header-down .down-title .buttons .button1 button {
+  border-radius: 15px;
+  width: 90px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.header-down .down-title .buttons .button1 button:hover {
+  opacity: 1;
+}
+
+.header-down .down-title .buttons .button2 button {
+  border-radius: 15px;
+  width: 120px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.header-down .down-title .buttons .button2 button:hover {
+  opacity: 1;
+}
+
+.header-down .down-title .buttons .button3 button {
+  border-radius: 15px;
+  width: 120px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.header-down .down-title .buttons .button3 button:hover {
+  opacity: 1;
+}
+
+.header-down .down-title .buttons .button4 button {
+  border-radius: 15px;
+  width: 120px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.header-down .down-title .buttons .button4 button:hover {
+  opacity: 1;
+}
+
+.header-down .down-title .buttons .button5 button {
+  border-radius: 15px;
+  width: 180px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.header-down .down-title .buttons .button5 button:hover {
+  opacity: 1;
+}
+
+.header-down .down-title .buttons .button6 button {
+  border-radius: 15px;
+  width: 120px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.header-down .down-title .buttons .button6 button:hover {
+  opacity: 1;
+}
+
+.header-down .text-line {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  opacity: 0.5;
+  margin-top: 163px;
+}
+
+.header-down .down-title {
+  position: relative;
+}
+
+.header-down .down-title h3 {
+  margin-top: 190px;
+  color: white;
+  font-size: 12px;
+}
+
+.header-down .down-title p {
+  color: rgb(155, 155, 155);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  margin-top: 50px;
+}
+
+#service h3 {
+  color: black;
+  margin-top: 400px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#service .card1 {
+  width: 900px;
+  height: 300px;
+  border-radius: 15px;
+  display: flex;
+  background-image: url(./img/solutioncard1.webp);
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  transition: all 0.7s;
+  margin-top: 90px;
+}
+
+#service .card1:hover {
+  opacity: 0.9;
+}
+
+#service .card1 .card1-header {
+  display: flex;
+}
+
+#service .card1 .card1-header img {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+#service .card1 .card1-header p {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+#service .card1 .card1-header span {
+  font-size: 11px;
+  color: rgb(238, 220, 255);
+  margin-top: 60px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 100px;
+}

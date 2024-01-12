@@ -1,0 +1,2067 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lota Grotesque", sans-serif;
+  background-color: rgb(252, 252, 252);
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.header-up {
+  width: 100%;
+  background-color: black;
+  height: 42px;
+}
+
+.header-up .header-left {
+  display: flex;
+  gap: 50px;
+  position: relative;
+}
+
+.header-up .header-left .button1 {
+  height: 42px;
+  width: 40px;
+  transition: all 0.5s;
+}
+
+.header-up .header-left .button1:hover {
+  background-color: rgb(94, 94, 94);
+}
+
+.header-up .header-left .button2 {
+  height: 42px;
+  width: 69px;
+  transition: all 0.5s;
+}
+.header-up .header-left .button2:hover {
+  background-color: rgb(94, 94, 94);
+}
+
+.header-up .header-left .button3 {
+  height: 42px;
+  width: 89px;
+  transition: all 0.5s;
+}
+
+.header-up .header-left .button3:hover {
+  background-color: rgb(94, 94, 94);
+}
+
+.header-up .header-left a {
+  color: rgb(133, 133, 133);
+  text-decoration: none;
+  font-size: 11px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.header-up .header-left a:hover {
+  color: white;
+}
+
+.header-up .header-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-up .header-right .button1 {
+  width: 85px;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.header-up .header-right .button1:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.header-up .header-right .button1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.header-up .header-right .button1 a span {
+  padding-left: 8px;
+}
+
+.header-up .header-right .button2 {
+  height: 100%;
+  width: 35px;
+  transition: all 0.5s;
+}
+
+.header-up .header-right .button2:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.header-up .header-right .button2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14px;
+}
+
+.header-up .header-right .button3 {
+  width: 125px;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.header-up .header-right .button3:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.header-up .header-right .button3 a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3px;
+}
+
+.header-up .header-right .button3 a span {
+  padding-left: 8px;
+}
+
+.header-up .header-right .button-lang {
+  height: 100%;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: all 0.5s;
+  background-color: black;
+  color: black;
+}
+
+.header-up .header-right .button-lang select {
+  background-color: black;
+  color: white;
+}
+
+.header-up .header-right .button-lang:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.header-up .header-right .search {
+  color: white;
+  height: 100%;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: all 0.5s;
+}
+
+.header-up .header-right .search:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.header-center .header-img {
+  width: 100%;
+  height: 680px;
+  position: absolute;
+}
+
+.header-center .header-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.header-center .header-logo {
+  position: relative;
+  height: 60px;
+}
+
+.header-center .header-logo img {
+  padding-top: 15px;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.header-center .header-menues {
+  height: 60px;
+  position: relative;
+}
+
+.header-center .header-menues ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-center .header-menues ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.header-center .header-menues ul li .button1 {
+  width: 59px;
+  height: 30px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-center .header-menues ul li .button1:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li .button2 {
+  width: 88px;
+  height: 30px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-center .header-menues ul li .button2:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li .button3 {
+  width: 129px;
+  height: 30px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-center .header-menues ul li .button3:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li .button4 {
+  width: 119px;
+  height: 30px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-center .header-menues ul li .button4:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li .button5 {
+  width: 95px;
+  height: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.header-center .header-menues ul li .button5:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li .button6 {
+  width: 59px;
+  height: 30px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header-center .header-menues ul li .button6:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.header-center .header-menues ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+}
+
+.header-center .header-title {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-center .header-title .header-text {
+  color: white;
+  width: 510px;
+  font-size: 30px;
+}
+
+.header-center .header-title .header-text h1 {
+  padding-top: 150px;
+}
+
+.header-center .header-right-img {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-center .header-right-img img {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.header-down .text-line {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  opacity: 0.5;
+  margin-top: 163px;
+}
+
+.header-down .down-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  position: relative;
+}
+
+.header-down .down-title h3 {
+  margin-top: 190px;
+  color: white;
+  font-size: 12px;
+}
+
+.header-down .down-title p {
+  color: rgb(155, 155, 155);
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.header-down .down-title .title1 h3 {
+  width: 190px;
+}
+
+#creat-rates {
+  margin-top: 40px;
+}
+
+#creat-rates .up-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+
+#creat-rates .up-title .text {
+  margin-top: 50px;
+}
+
+#creat-rates .up-title .text h1 {
+  font-size: 45px;
+}
+
+#creat-rates .up-title .text p {
+  font-size: 13px;
+  color: rgb(153, 153, 153);
+  padding-top: 17px;
+}
+
+#creat-rates .up-title .text button {
+  width: 180px;
+  height: 50px;
+  border-radius: 24px;
+  color: white;
+  background-color: rgb(255, 115, 0);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s;
+  margin-top: 90px;
+}
+
+#creat-rates .up-title .text button:hover {
+  background-color: rgb(150, 67, 0);
+  transform: scale(0.9);
+}
+
+#creat-rates .up-title .up-img img {
+  float: right;
+}
+
+#creat-rates .center-cards .cards-title {
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+
+#creat-rates .center-cards .cards-title h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#creat-rates .center-cards .cards-title a {
+  text-decoration: none;
+  color: rgb(158, 158, 158);
+  font-weight: bold;
+  padding-top: 13px;
+  transition: all 0.5s;
+}
+
+#creat-rates .center-cards .cards-title a:hover {
+  color: blueviolet;
+}
+
+#creat-rates .center-cards .cards-title .title2 {
+  display: flex;
+  gap: 90px;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+#creat-rates .center-cards .cards {
+  width: 100%;
+  height: 900px;
+  margin-top: 40px;
+}
+
+#creat-rates .center-cards .cards .card1 {
+  height: 700px;
+  width: 95%;
+  border-radius: 26px;
+  box-shadow: 0px 5px 5px 5px rgb(209, 209, 209);
+  position: relative;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-img {
+  width: 100%;
+  height: 190px;
+  border-radius: 26px;
+  position: relative;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 26px 26px 0px 0px;
+  position: absolute;
+}
+
+#creat-rates .center-cards .cards .card2 {
+  height: 700px;
+  width: 95%;
+  border-radius: 26px;
+  box-shadow: 0px 5px 5px 5px rgb(209, 209, 209);
+  position: relative;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-img {
+  width: 100%;
+  height: 190px;
+  border-radius: 26px;
+  position: absolute;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 26px 26px 0px 0px;
+}
+
+#creat-rates .center-cards .cards .mini-cards {
+  height: 600px;
+}
+
+#creat-rates .center-cards .cards .mini-cards .mini-card1 {
+  width: 100%;
+  height: 50%;
+  border-radius: 26px;
+  position: relative;
+}
+#creat-rates .center-cards .cards .mini-cards .mini-card1 .mini-card1-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 26px;
+}
+
+#creat-rates .center-cards .cards .mini-cards .mini-card1 .mini-card1-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 26px;
+  position: absolute;
+}
+
+#creat-rates .center-cards .cards .mini-cards .mini-card2 {
+  width: 100%;
+  height: 50%;
+  margin-top: 20px;
+  border-radius: 26px;
+}
+
+#creat-rates .center-cards .cards .mini-cards .mini-card2 .mini-card2-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 26px;
+}
+
+#creat-rates .center-cards .cards .mini-cards .mini-card2 .mini-card2-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 26px;
+}
+
+#creat-rates .center-cards .cards .card1 .img-text1 {
+  display: flex;
+  position: absolute;
+  width: 380px;
+  justify-content: space-between;
+}
+
+#creat-rates .center-cards .cards .card1 .img-text1 .left-text {
+  margin-top: 22px;
+}
+
+#creat-rates .center-cards .cards .card1 .img-text1 .left-text p {
+  color: white;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#creat-rates .center-cards .cards .card1 .img-text1 .right-text {
+  margin-top: 20px;
+  height: 25px;
+  width: 110px;
+  border-radius: 15px;
+  background-color: rgb(121, 121, 121);
+  color: white;
+}
+
+#creat-rates .center-cards .cards .card1 .img-text1 .right-text p {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#creat-rates .center-cards .cards .card1 .top-price1 {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.5;
+  position: absolute;
+  width: 85%;
+  height: 45px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+#creat-rates .center-cards .cards .card1 .price-but {
+  position: relative;
+  padding-top: 100px;
+}
+
+#creat-rates .center-cards .cards .card1 .price-but ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+#creat-rates .center-cards .cards .card1 .price-but ul li {
+  list-style: none;
+}
+
+#creat-rates .center-cards .cards .card1 .price-but ul li a:hover {
+  transform: scale(1.2);
+  background-color: white;
+  color: blueviolet;
+}
+
+#creat-rates .center-cards .cards .card1 .price-but ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  gap: 19px;
+  font-weight: bold;
+  font-size: 13px;
+  width: 55px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  transition: all 0.7s;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-icon {
+  position: relative;
+  margin-top: 90px;
+  width: 50px;
+  height: 200px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-icon i {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: blueviolet;
+  transition: all 0.5s;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-icon i:hover {
+  transform: rotate(-30deg);
+}
+
+#creat-rates .center-cards .cards .card1 .card1-icon-text {
+  display: inline-block;
+  position: absolute;
+  width: 110px;
+  height: 200px;
+  margin-top: 85px;
+  margin-left: 35px;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-icon-text p {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-icon-text span {
+  color: rgb(167, 167, 167);
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+#creat-rates .center-cards .cards .card1 .right-icon {
+  display: inline-block;
+  margin-left: 210px;
+}
+
+#creat-rates .center-cards .cards .card1 .right-icon i {
+  font-size: 35px;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-down-text {
+  margin-top: 90px;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-down-text p {
+  color: rgb(155, 155, 155);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-button-left {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-button-left button {
+  width: 150px;
+  height: 35px;
+  border-radius: 24px;
+  color: white;
+  background-color: rgb(255, 115, 0);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-button-left button:hover {
+  background-color: rgb(150, 67, 0);
+  transform: scale(0.9);
+}
+
+#creat-rates .center-cards .cards .card1 .card1-button-right {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-button-right button {
+  width: 150px;
+  height: 36px;
+  border-radius: 24px;
+  color: rgb(255, 115, 0);
+  background-color: rgb(255, 203, 160);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+#creat-rates .center-cards .cards .card1 .card1-button-right button:hover {
+  background-color: rgb(150, 67, 0);
+  transform: scale(0.9);
+}
+
+#creat-rates .center-cards .cards .card2 .img-text2 {
+  display: flex;
+  position: absolute;
+  width: 380px;
+  justify-content: space-between;
+}
+
+#creat-rates .center-cards .cards .card2 .img-text2 .left-text {
+  margin-top: 22px;
+}
+
+#creat-rates .center-cards .cards .card2 .img-text2 .left-text p {
+  color: white;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#creat-rates .center-cards .cards .card2 .img-text2 .right-text {
+  margin-top: 20px;
+  height: 25px;
+  width: 110px;
+  border-radius: 15px;
+  background-color: rgb(121, 121, 121);
+  color: white;
+}
+
+#creat-rates .center-cards .cards .card2 .img-text2 .right-text p {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#creat-rates .center-cards .cards .card2 .top-price2 {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.5;
+  position: absolute;
+  width: 40%;
+  height: 45px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+#creat-rates .center-cards .cards .card2 .price-but {
+  position: relative;
+  padding-top: 100px;
+}
+
+#creat-rates .center-cards .cards .card2 .price-but ul {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 30px;
+}
+
+#creat-rates .center-cards .cards .card2 .price-but ul li {
+  list-style: none;
+}
+
+#creat-rates .center-cards .cards .card2 .price-but ul li a:hover {
+  transform: scale(1.2);
+  background-color: white;
+  color: blueviolet;
+}
+
+#creat-rates .center-cards .cards .card2 .price-but ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 13px;
+  width: 55px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  transition: all 0.7s;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-icon {
+  position: relative;
+  margin-top: 90px;
+  width: 50px;
+  height: 200px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-icon i {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: blueviolet;
+  transition: all 0.5s;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-icon i:hover {
+  transform: rotate(-30deg);
+}
+
+#creat-rates .center-cards .cards .card2 .card2-icon-text {
+  display: inline-block;
+  position: absolute;
+  width: 110px;
+  height: 200px;
+  margin-top: 85px;
+  margin-left: 35px;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-icon-text p {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-icon-text span {
+  color: rgb(167, 167, 167);
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+#creat-rates .center-cards .cards .card2 .right-icon {
+  display: inline-block;
+  margin-left: 240px;
+}
+
+#creat-rates .center-cards .cards .card2 .right-icon i {
+  font-size: 35px;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-down-text {
+  margin-top: 90px;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-down-text p {
+  color: rgb(155, 155, 155);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-button-left {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-button-left button {
+  width: 150px;
+  height: 35px;
+  border-radius: 24px;
+  color: white;
+  background-color: rgb(255, 115, 0);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-button-left button:hover {
+  background-color: rgb(150, 67, 0);
+  transform: scale(0.9);
+}
+
+#creat-rates .center-cards .cards .card2 .card2-button-right {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-button-right button {
+  width: 150px;
+  height: 36px;
+  border-radius: 24px;
+  color: rgb(255, 115, 0);
+  background-color: rgb(255, 203, 160);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+#creat-rates .center-cards .cards .card2 .card2-button-right button:hover {
+  background-color: rgb(150, 67, 0);
+  transform: scale(0.9);
+}
+
+#creat-rates
+  .center-cards
+  .cards
+  .mini-cards
+  .mini-card1-img
+  .mini-card1-right-img {
+  margin-left: 294px;
+  margin-bottom: 90px;
+  position: absolute;
+}
+
+#creat-rates
+  .center-cards
+  .cards
+  .mini-cards
+  .mini-card1-img
+  .mini-card1-right-img
+  img {
+  width: 150px;
+  height: 250px;
+  border-radius: 0px 0px 26px 0px;
+  margin-top: 50px;
+}
+
+#creat-rates
+  .center-cards
+  .cards
+  .mini-cards
+  .mini-card2-img
+  .mini-card2-right-img {
+  margin-left: 294px;
+  position: absolute;
+  margin-top: -254px;
+}
+
+#creat-rates
+  .center-cards
+  .cards
+  .mini-cards
+  .mini-card2-img
+  .mini-card2-right-img
+  img {
+  width: 150px;
+  height: 250px;
+  border-radius: 0px 0px 26px 0px;
+  position: absolute;
+}
+
+#creat-rates .buy-number {
+  display: flex;
+}
+
+#creat-rates .buy-number .down-title {
+  width: 500px;
+}
+
+#creat-rates .buy-number .down-title h1 {
+  font-size: 45px;
+}
+
+#creat-rates .buy-number .down-title button {
+  width: 180px;
+  height: 50px;
+  border-radius: 24px;
+  color: white;
+  background-color: rgb(255, 115, 0);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s;
+  margin-top: 100px;
+}
+
+#creat-rates .buy-number .down-card img {
+  padding-left: 300px;
+}
+
+#az-app .title-app {
+  display: flex;
+}
+
+#az-app .title-app .left-title {
+  width: 900px;
+  font-size: 20px;
+}
+
+#az-app .title-app .right-title {
+  margin-top: 13px;
+}
+
+#az-app .title-app .right-title a {
+  text-decoration: none;
+  color: rgb(172, 172, 172);
+  font-weight: bold;
+  padding-left: 150px;
+  transition: all 0.3s;
+}
+
+#az-app .title-app .right-title a:hover {
+  color: blueviolet;
+}
+
+#az-app .app-store {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+}
+
+#az-app .app-store .app1 {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#az-app .app-store .app1:hover {
+  background-image: url(./img/digital-apps-page-litres-hover.png);
+  width: 150px;
+  height: 150px;
+  transform: scale(1.2);
+  position: relative;
+  z-index: 66;
+  background-repeat: no-repeat;
+}
+
+#az-app .app-store .app1 .app1-img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+#az-app .app-store .app1 .app1-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#az-app .app-store .app1 .app1-star {
+  font-size: 9px;
+  padding-top: 60px;
+  padding-left: 15px;
+  position: absolute;
+}
+
+.checked {
+  color: orange;
+}
+
+#az-app .app-store .app1 .app1-star p {
+  color: orange;
+  display: inline;
+}
+
+#az-app .app-store .app1 .app1-center h1 {
+  font-size: 12px;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 15px;
+}
+
+#az-app .app-store .app1 .app1-center p {
+  font-size: 10px;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 15px;
+}
+
+#az-app .app-store .app1 .app1-down {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 120px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+#az-app .app-store .app1 .app1-down p {
+  font-size: 11px;
+  padding-top: 10px;
+  position: relative;
+}
+
+#az-app .app-store .app2 {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#az-app .app-store .app2:hover {
+  background-image: url(./img/home-card-blutv.png.webp);
+  width: 150px;
+  height: 150px;
+  transform: scale(1.2);
+  position: relative;
+  z-index: 66;
+  background-repeat: no-repeat;
+}
+
+#az-app .app-store .app2 .app2-img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+#az-app .app-store .app2 .app2-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#az-app .app-store .app2 .app2-star {
+  font-size: 9px;
+  padding-top: 60px;
+  padding-left: 15px;
+  position: absolute;
+}
+
+.checked {
+  color: orange;
+}
+
+#az-app .app-store .app2 .app2-center h1 {
+  font-size: 12px;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 15px;
+}
+
+#az-app .app-store .app2 .app2-center p {
+  font-size: 10px;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 15px;
+}
+
+#az-app .app-store .app2 .app2-star p {
+  color: orange;
+  display: inline;
+}
+
+#az-app .app-store .app2 .app2-down {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 120px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+#az-app .app-store .app2 .app2-down p {
+  font-size: 11px;
+  padding-top: 10px;
+  position: relative;
+}
+
+#az-app .app-store .app3 {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#az-app .app-store .app3:hover {
+  background-image: url(./img/bg.png.webp);
+  width: 150px;
+  height: 150px;
+  transform: scale(1.2);
+  position: relative;
+  z-index: 66;
+  background-repeat: no-repeat;
+}
+
+#az-app .app-store .app3 .app3-img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+#az-app .app-store .app3 .app3-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#az-app .app-store .app3 .app3-star {
+  font-size: 9px;
+  padding-top: 60px;
+  padding-left: 15px;
+  position: absolute;
+}
+
+.checked {
+  color: orange;
+}
+
+#az-app .app-store .app3 .app3-center h1 {
+  font-size: 12px;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 15px;
+}
+
+#az-app .app-store .app3 .app3-center p {
+  font-size: 10px;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 15px;
+}
+
+#az-app .app-store .app3 .app3-star p {
+  color: orange;
+  display: inline;
+}
+
+#az-app .app-store .app3 .app3-down {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 120px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+#az-app .app-store .app3 .app3-down p {
+  font-size: 11px;
+  padding-top: 10px;
+  position: relative;
+}
+
+#az-app .app-store .app4 {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#az-app .app-store .app4 .app4-down {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 120px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+#az-app .app-store .app4:hover {
+  background-image: url(./img/bg.png.webp);
+  width: 150px;
+  height: 150px;
+  transform: scale(1.2);
+  position: relative;
+  z-index: 66;
+  background-repeat: no-repeat;
+}
+
+#az-app .app-store .app4 .app4-img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+#az-app .app-store .app4 .app4-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#az-app .app-store .app4 .app4-star {
+  font-size: 9px;
+  padding-top: 60px;
+  padding-left: 15px;
+  position: absolute;
+}
+
+.checked {
+  color: orange;
+}
+
+#az-app .app-store .app4 .app4-center h1 {
+  font-size: 12px;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 15px;
+}
+
+#az-app .app-store .app4 .app4-center p {
+  font-size: 10px;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 15px;
+}
+
+#az-app .app-store .app4 .app4-star p {
+  color: orange;
+  display: inline;
+}
+
+#az-app .app-store .app4 .app4-down {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 120px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+#az-app .app-store .app4 .app4-down p {
+  font-size: 11px;
+  padding-top: 10px;
+  position: relative;
+}
+
+#az-app .app-store .app5 {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#az-app .app-store .app5 .app5-down {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 120px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+#az-app .app-store .app5:hover {
+  background-image: url(./img/hero-background-1.png);
+  width: 150px;
+  height: 150px;
+  transform: scale(1.2);
+  position: relative;
+  z-index: 66;
+  background-repeat: no-repeat;
+}
+
+#az-app .app-store .app5 .app5-img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+#az-app .app-store .app5 .app5-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#az-app .app-store .app5 .app5-star {
+  font-size: 9px;
+  padding-top: 60px;
+  padding-left: 15px;
+  position: absolute;
+}
+
+.checked {
+  color: orange;
+}
+
+#az-app .app-store .app5 .app5-center h1 {
+  font-size: 12px;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 15px;
+}
+
+#az-app .app-store .app5 .app5-center p {
+  font-size: 10px;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 15px;
+}
+
+#az-app .app-store .app5 .app5-star p {
+  color: orange;
+  display: inline;
+}
+
+#az-app .app-store .app5 .app5-down {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 120px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+#az-app .app-store .app5 .app5-down p {
+  font-size: 11px;
+  padding-top: 10px;
+  position: relative;
+}
+
+#az-app .down-app {
+  width: 100%;
+  height: 600px;
+}
+
+#az-app .down-app .app-title {
+  width: 500px;
+  height: 600px;
+}
+
+#az-app .down-app .app-title h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#az-app .down-app .app-title p {
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(197, 197, 197);
+  margin-top: 30px;
+}
+
+#az-app .down-app {
+  display: flex;
+}
+#az-app .down-app .downland {
+  display: flex;
+  justify-content: start;
+  align-self: center;
+  gap: 20px;
+}
+
+#az-app .down-app .downland .appstore i {
+  position: absolute;
+  margin-top: 113px;
+  padding-left: 20px;
+  transition: all 0.3s;
+  font-size: 25px;
+}
+
+#az-app .down-app .downland .appstore i:hover {
+  transform: rotate(-10deg);
+}
+
+#az-app .down-app .downland .appstore button {
+  width: 180px;
+  height: 50px;
+  border-radius: 24px;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s;
+  margin-top: 100px;
+  border-radius: 1px solid black;
+}
+
+#az-app .down-app .downland .playstore img {
+  position: absolute;
+  margin-top: 113px;
+  padding-left: 20px;
+  transition: all 0.3s;
+}
+
+#az-app .down-app .downland .playstore img:hover {
+  transform: rotate(-10deg);
+}
+
+#az-app .down-app .downland .playstore button {
+  width: 180px;
+  height: 50px;
+  border-radius: 24px;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s;
+  margin-top: 100px;
+  border-radius: 1px solid black;
+}
+
+#az-app .down-app .app-img .phone-img img {
+  padding-left: 90px;
+}
+
+#az-app .down-app .app-cards {
+  width: 100%;
+  padding-top: 60px;
+}
+
+#az-app .down-app .app-cards .app-card1 {
+  width: 400px;
+  height: 150px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  float: right;
+  transition: all 0.7s;
+}
+#az-app .down-app .app-cards .app-card1:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+#az-app .down-app .app-cards .app-card2 {
+  width: 400px;
+  height: 150px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  float: right;
+  transition: all 0.7s;
+}
+#az-app .down-app .app-cards .app-card2:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+#az-app .down-app .app-cards .app-card3 {
+  width: 400px;
+  height: 150px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  float: right;
+  transition: all 0.7s;
+}
+#az-app .down-app .app-cards .app-card3:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+#az-app .down-app .app-cards .app-card1 i {
+  font-size: 30px;
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 30px;
+  position: absolute;
+  color: rgb(178, 96, 255);
+}
+
+#az-app .down-app .app-cards .app-card1 p {
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 90px;
+  margin-top: 50px;
+}
+
+#az-app .down-app .app-cards .app-card1 span {
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 10px;
+  display: inline-block;
+  padding-left: 90px;
+}
+
+#az-app .down-app .app-cards .app-card2 i {
+  font-size: 30px;
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 70px;
+  position: absolute;
+  color: rgb(178, 96, 255);
+}
+
+#az-app .down-app .app-cards .app-card2 p {
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 90px;
+  margin-top: 60px;
+}
+
+#az-app .down-app .app-cards .app-card2 span {
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 10px;
+  display: inline-block;
+  padding-left: 90px;
+}
+
+#az-app .down-app .app-cards .app-card3 i {
+  font-size: 30px;
+  display: inline-block;
+  padding-top: 60px;
+  padding-left: 30px;
+  position: absolute;
+  color: rgb(178, 96, 255);
+}
+
+#az-app .down-app .app-cards .app-card3 p {
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 90px;
+  margin-top: 60px;
+}
+
+#az-app .down-app .app-cards .app-card3 span {
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 10px;
+  display: inline-block;
+  padding-left: 90px;
+}
+
+#az-app .down-app .down-app-title {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+#az-app .down-app .down-app-title i {
+  font-size: 60px;
+}
+
+#az-app .down-app .down-app-title span {
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(197, 197, 197);
+  padding-top: 15px;
+}
+
+#slide .video-area {
+  width: 100%;
+  height: 515px;
+  background: url(./video/azercellvideo.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+}
+
+#slide .text-video {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 390px;
+}
+
+#slide .text-video h1 {
+  color: white;
+  font-size: 50px;
+}
+
+#slide .text-video p {
+  color: rgb(173, 173, 173);
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+#bank-card .payment-area {
+  margin-top: 110px;
+}
+
+#bank-card .payment-area p {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(148, 148, 148);
+}
+
+#bank-card .payment-area h1 {
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#bank-card .payment-area input {
+  width: 390px;
+  height: 60px;
+  border-radius: 20px;
+  border: 1px solid rgb(175, 175, 175);
+  margin-top: 20px;
+}
+
+#bank-card .payment-area .price {
+  display: flex;
+}
+
+#bank-card .payment-area .price .price-left input {
+  width: 140px;
+  height: 60px;
+}
+
+#bank-card .payment-area .price .price-left i {
+  position: absolute;
+  margin-top: 40px;
+  font-size: 20px;
+  margin-left: -40px;
+  color: rgb(194, 194, 194);
+}
+
+#bank-card .payment-area .price .price-right {
+  display: flex;
+  width: 190px;
+  height: 50px;
+  gap: 20px;
+  margin-top: 24px;
+  margin-left: 30px;
+}
+
+#bank-card .payment-area .price .price-right .pricebox1 {
+  background-color: rgb(204, 204, 204);
+  width: 50px;
+  border-radius: 15px;
+}
+
+#bank-card .payment-area .price .price-right .pricebox2 {
+  background-color: rgb(204, 204, 204);
+  width: 50px;
+  border-radius: 15px;
+}
+
+#bank-card .payment-area .price .price-right .pricebox3 {
+  background-color: rgb(204, 204, 204);
+  width: 50px;
+  border-radius: 15px;
+}
+
+#bank-card .payment-area .price .price-right a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  transition: all 0.4s;
+}
+
+#bank-card .payment-area .price .price-right a:hover {
+  color: white;
+  background-color: rgb(83, 172, 255);
+  transform: scale(1.1);
+}
+
+#bank-card .card-info .card-img {
+  width: 650px;
+  height: 490px;
+  position: absolute;
+  background-image: url(./img/debitcard.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 130px;
+  margin-left: 350px;
+}
+
+#bank-card .card-info .card-img input {
+  width: 550px;
+  height: 60px;
+  margin-top: 220px;
+  margin-left: 45px;
+  border-radius: 10px;
+  border: none;
+}
+
+#bank-card .payment-area .price .payment-button button {
+  width: 180px;
+  height: 50px;
+  border-radius: 24px;
+  color: white;
+  background-color: rgb(255, 115, 0);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s;
+  margin-top: 100px;
+  position: absolute;
+  display: inline-block;
+  margin-left: -145px;
+}
+
+#footer-area {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  position: relative;
+  margin-top: 190px;
+}
+
+#footer-area .footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  height: 190px;
+  border-bottom: 1px solid grey;
+}
+
+#footer-area .footer ul li {
+  list-style: none;
+}
+
+#footer-area .footer ul li a {
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Lota Grotesque", sans-serif;
+}
+
+#footer-area .footer ul li a:hover {
+  color: rgb(116, 62, 116);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#footer-area .footer .contents a {
+  color: #b2b2b2;
+  margin-top: 10px;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#footer-area .footer .language-logo {
+  position: relative;
+}
+
+#footer-area .footer .language-logo .img2 {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+#footer-area .footer .language-logo .img2 img {
+  width: 42px;
+  height: 38px;
+}
+
+#footer-area .footer .language-logo .lang {
+  position: absolute;
+  width: 100px;
+}
+
+#footer-area .footer .language-logo form {
+  width: 55px;
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+#footer-area .footer .language-logo img {
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+}
+
+#footer-area .footer .language-logo .language {
+  width: 100px;
+  height: 40px;
+  position: relative;
+  margin-left: 8px;
+}
+
+#footer-area .footer .language-logo .language label {
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+#footer-area .footer .language-logo .language:hover {
+  background-color: rgb(51, 49, 49);
+  transition: all 0.5s;
+}
+
+#footer-area .contact .call-center {
+  margin-top: 30px;
+}
+
+#footer-area .contact .app-download {
+  margin-top: 30px;
+}
+
+#footer-area .contact .subscription {
+  margin-top: 30px;
+}
+
+#footer-area .contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-area .contact p {
+  color: rgb(179, 179, 179);
+  font-size: 15px;
+}
+
+#footer-area .contact span {
+  color: white;
+}
+
+#footer-area .app-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+#footer-area .app-buttons .app-button1 {
+  position: relative;
+}
+#footer-area .app-buttons .app-button1 button {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: rgb(183, 180, 180);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer-area .app-buttons .app-button1 button i {
+  font-size: 16px;
+  padding-right: 3px;
+}
+
+#footer-area .app-buttons .app-button1 button:hover {
+  background-color: rgb(52, 51, 51);
+  transition: all 0.5s;
+}
+
+#footer-area .app-buttons .app-button2 button {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: rgb(183, 180, 180);
+  cursor: pointer;
+}
+
+#footer-area .app-buttons .app-button2 button:hover {
+  background-color: rgb(52, 51, 51);
+  transition: all 0.5s;
+}
+
+#footer-area .app-buttons .app-button3 button {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: rgb(183, 180, 180);
+  cursor: pointer;
+}
+
+#footer-area .app-buttons .app-button3 button:hover {
+  background-color: rgb(52, 51, 51);
+  transition: all 0.5s;
+}
+
+#footer-area .subscription .subsc-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+#footer-area .subscription .app-button4 button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: rgb(183, 180, 180);
+  cursor: pointer;
+}
+
+#footer-area .subscription .app-button4 button:hover {
+  background-color: rgb(52, 51, 51);
+  transition: all 0.5s;
+}
+
+#footer-area .subscription .app-button5 button {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  cursor: pointer;
+}
+
+#footer-area .subscription .app-button5 button:hover {
+  background-color: rgb(52, 51, 51);
+  transition: all 0.5s;
+}
+
+#footer-area .az-telecom {
+  margin-top: 30px;
+  color: white;
+  font-size: 15px;
+  color: rgb(179, 179, 179);
+}
+
+.col-12 {
+  width: 100%;
+}
